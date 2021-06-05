@@ -26,7 +26,7 @@ pip install -v -e .
 # download yolact model (SOLO_R50_1x.pth) to the 'weights' folder:
 https://github.com/WXinlong/SOLO
 
-# find a image to run the inference demo:
+# find an image to run the inference demo:
 python demo/image_demo.py demo/demo.jpg configs/solo/solo_r50_fpn_1x_coco.py weights/SOLO_R50_1x.pth --device cpu
 
 ```
