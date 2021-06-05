@@ -1,3 +1,43 @@
+# Personal Statement:
+Forking the cpu version from https://github.com/WXinlong/mmdetection.git , fixing the version error of mmcv and pycocotools, and adding the test dataset (PennFudanPed:https://www.cis.upenn.edu/~jshi/ped_html/). For personal use only.
+# Installation for CPU:
+```Shell
+# create conda environment:
+conda activate solo_cpu
+
+# active solo_cpu environment:
+conda activate solo_cpu
+
+# install pytorch:
+conda install pytorch==1.5.0 torchvision==0.6.0 cpuonly -c pytorch
+
+# install mmcv:
+pip install mmcv_full
+pip install pycocotools
+
+# git clone solo github package:
+git clone https://github.com/zzuxzt/mmdetection_solo_cpu.git
+
+# install mmdetection:
+cd mmdetection_solo
+pip install -r requirements/build.txt
+pip install -v -e . 
+
+# download yolact model (SOLO_R50_1x.pth) to the 'weights' folder:
+
+# find a image to run the inference demo:
+python demo/image_demo.py demo/demo.jpg configs/solo/solo_r50_fpn_1x_coco.py weights/SOLO_R50_1x.pth --device cpu
+
+```
+
+
+
+
+
+
+
+
+
 <div align="center">
   <img src="resources/mmdet-logo.png" width="600"/>
 </div>
