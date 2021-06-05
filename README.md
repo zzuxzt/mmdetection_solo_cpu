@@ -1,5 +1,5 @@
 # Personal Statement:
-Forking the cpu version from https://github.com/WXinlong/mmdetection.git , fixing the version error of mmcv and pycocotools, and adding the test dataset (PennFudanPed:https://www.cis.upenn.edu/~jshi/ped_html/). For personal use only.
+Forking the cpu version from https://github.com/WXinlong/mmdetection.git , fixing the version errors of mmcv and pycocotools, and adding the test dataset (PennFudanPed:https://www.cis.upenn.edu/~jshi/ped_html/). For personal use only.
 # Installation for CPU:
 ```Shell
 # create conda environment:
