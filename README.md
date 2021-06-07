@@ -3,7 +3,7 @@ Forking the cpu version from https://github.com/WXinlong/mmdetection.git , fixin
 # Installation for CPU:
 ```Shell
 # create conda environment:
-conda activate solo_cpu
+conda create -n solo_cpu python python=3.7
 
 # active solo_cpu environment:
 conda activate solo_cpu
@@ -15,6 +15,9 @@ conda install pytorch==1.5.0 torchvision==0.6.0 cpuonly -c pytorch
 pip install mmcv_full
 pip install pycocotools
 
+# install opencv:
+conda install -yc opencv
+
 # git clone solo github package:
 git clone https://github.com/zzuxzt/mmdetection_solo_cpu.git
 
@@ -23,7 +26,7 @@ cd mmdetection_solo
 pip install -r requirements/build.txt
 pip install -v -e . 
 
-# download yolact model (SOLO_R50_1x.pth) to the 'weights' folder:
+# download SOLO model (SOLO_R50_1x.pth) to the 'weights' folder:
 https://github.com/WXinlong/SOLO
 
 # find an image to run the inference demo:
