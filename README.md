@@ -15,8 +15,8 @@ conda install pytorch==1.5.0 torchvision==0.6.0 cpuonly -c pytorch
 pip install mmcv_full
 pip install pycocotools
 
-# install opencv:
-conda install -yc opencv
+# install scipy:
+conda install scipy
 
 # git clone solo github package:
 git clone https://github.com/zzuxzt/mmdetection_solo_cpu.git
