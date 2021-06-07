@@ -22,7 +22,7 @@ conda install -yc opencv
 git clone https://github.com/zzuxzt/mmdetection_solo_cpu.git
 
 # install mmdetection:
-cd mmdetection_solo
+cd mmdetection_solo_cpu
 mkdir weights
 pip install -r requirements/build.txt
 pip install -r requirements/runtime.txt
