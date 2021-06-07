@@ -27,6 +27,8 @@ mkdir weights
 pip install -r requirements/build.txt
 pip install -r requirements/runtime.txt
 pip install -v -e . 
+#If you build mmdetection on macOS, replace the last command with
+CC=clang CXX=clang++ CFLAGS='-stdlib=libc++' pip install -e .
 
 # download SOLO model (SOLO_R50_1x.pth) to the 'weights' folder:
 https://github.com/WXinlong/SOLO
