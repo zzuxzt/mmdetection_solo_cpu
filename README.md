@@ -23,6 +23,7 @@ git clone https://github.com/zzuxzt/mmdetection_solo_cpu.git
 
 # install mmdetection:
 cd mmdetection_solo
+mkdir weights
 pip install -r requirements/build.txt
 pip install -r requirements/runtime.txt
 pip install -v -e . 
