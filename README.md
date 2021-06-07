@@ -24,6 +24,7 @@ git clone https://github.com/zzuxzt/mmdetection_solo_cpu.git
 # install mmdetection:
 cd mmdetection_solo
 pip install -r requirements/build.txt
+pip install -r requirements/runtime.txt
 pip install -v -e . 
 
 # download SOLO model (SOLO_R50_1x.pth) to the 'weights' folder:
